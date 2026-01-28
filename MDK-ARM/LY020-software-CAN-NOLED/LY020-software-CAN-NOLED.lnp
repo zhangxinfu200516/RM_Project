@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"ly020-software-can-noled\startup_stm32f103xb.o"
+"ly020-software-can-noled\main.o"
+"ly020-software-can-noled\stm32f1xx_it.o"
+"ly020-software-can-noled\stm32f1xx_hal_msp.o"
+"ly020-software-can-noled\stm32f1xx_hal_gpio_ex.o"
+"ly020-software-can-noled\stm32f1xx_hal_adc.o"
+"ly020-software-can-noled\stm32f1xx_hal_adc_ex.o"
+"ly020-software-can-noled\stm32f1xx_hal.o"
+"ly020-software-can-noled\stm32f1xx_hal_rcc.o"
+"ly020-software-can-noled\stm32f1xx_hal_rcc_ex.o"
+"ly020-software-can-noled\stm32f1xx_hal_gpio.o"
+"ly020-software-can-noled\stm32f1xx_hal_dma.o"
+"ly020-software-can-noled\stm32f1xx_hal_cortex.o"
+"ly020-software-can-noled\stm32f1xx_hal_pwr.o"
+"ly020-software-can-noled\stm32f1xx_hal_flash.o"
+"ly020-software-can-noled\stm32f1xx_hal_flash_ex.o"
+"ly020-software-can-noled\stm32f1xx_hal_exti.o"
+"ly020-software-can-noled\stm32f1xx_hal_can.o"
+"ly020-software-can-noled\stm32f1xx_hal_i2c.o"
+"ly020-software-can-noled\stm32f1xx_hal_uart.o"
+"ly020-software-can-noled\system_stm32f1xx.o"
+"ly020-software-can-noled\oled_function.o"
+"ly020-software-can-noled\oled_iic_config.o"
+--library_type=microlib --strict --scatter "LY020-software-CAN-NOLED\LY020-software-CAN-NOLED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LY020-software-CAN-NOLED.map" -o LY020-software-CAN-NOLED\LY020-software-CAN-NOLED.axf
